@@ -9,6 +9,9 @@
 
 /* header styles */
 header {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
 }
 
 /* nav styles */
@@ -16,7 +19,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 240px;
+  padding: 10px 50px;
   /* width: 1920px;
   height: 130px; */
   background: #fff;
@@ -28,11 +31,11 @@ header {
   gap: 20px;
 }
 .nav-img {
-  width: 80px;
-  height: 40px;
+  width: 3rem;
+  height: 1.4rem;
 }
 .nav-title {
-  font-size: 2.8rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 .g {
@@ -49,19 +52,25 @@ header {
   align-items: center;
   list-style: none;
   gap: 32px;
+  /* font-size: 18px; */
+}
+.nav-contact li{
+    font-size: 10px;
 }
 .nav-contact a {
   text-decoration: none;
   color: #3c354f;
 }
+
 .follow {
-  width: 262px;
-  height: 56px;
-  padding: 5px 5px;
+  width: 150px;
+  height: 30px;
+  padding: 3px 3px;
   border-radius: 8px;
   background: rgba(11, 2, 35, 0.1);
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 24px;
   align-items: center;
   gap: 10px;
 }
