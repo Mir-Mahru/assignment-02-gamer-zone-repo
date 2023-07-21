@@ -1,20 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Open+Sans:ital,wght@0,800;1,700&family=Work+Sans:wght@400;500;600;700;800&display=swap");
 
-/* Shared Styles */
+/* SHARED STYLES */
 * {
   font-family: "Lato", sans-serif;
   font-family: "Open Sans", sans-serif;
   font-family: "Work Sans", sans-serif;
 }
 
-/* header styles */
+/* HEADER STYLES */
 header {
     background-color: #FFFFFF;
     padding: 0;
     margin: 0;
 }
 
-/* nav styles */
+/* NAV STYLES */
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -81,4 +81,28 @@ header {
 .tiktok {
   width: 24px;
   height: 15px;
+}
+
+/* BANNER STYLES */
+.banner-section{
+  display: flex;
+  justify-content: space-between;
+  gap: ;
+  align-items: center;
+}
+.banner-content{
+  /* background: #ffa2a5; */
+  padding: 100px 100px;
+  text-align: center;
+}
+.play{
+  color: #0B0223;
+  text-align: center;
+  font-size: 25px; 
+  font-weight: 600; 
+  text-transform: uppercase; 
+}
+.banner-img img {
+  width: 70%;
+  height: 70%;
 }
