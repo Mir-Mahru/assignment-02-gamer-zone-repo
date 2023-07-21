@@ -31,20 +31,20 @@ header {
 .title-container {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
 }
 .nav-img {
   width: 3rem;
   height: 1.4rem;
 }
 .nav-title {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 700;
 }
-.g {
+.g-nav {
   color: #ffa2a5;
 }
-.amer {
+.amer-nav {
   color: #0b0223;
 }
 /* .nav-contact{
@@ -177,17 +177,18 @@ header {
   -webkit-text-fill-color: transparent;
 }
 .online-games-img {
-  width: 150px;
-  height: 200px;
+  /* width: 150px;
+  height: 200px; */
   display: flex;
   /* justify-content: center; */
+  /* gap: 0.5rem; */
+}
+.online-games-img img {
+  width: 100%;
+  height: 100%;
   gap: 0.5rem;
 }
-.online-games-img img{
-  width: ;
-  height: ;
-}
-.online-games-img figcaption{
+.online-games-img figcaption {
   font-size: 10px;
 }
 
@@ -243,7 +244,11 @@ header {
 /* BUTTON SECTION STYLES */
 .btn-section {
   /* margin: 50px 70px; */
-  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
   width: 60%;
   height: 70%;
   padding: 200px 305px 200px 200px;
@@ -266,7 +271,7 @@ header {
   gap: 5px;
   padding: 4px;
   border-radius: 50px;
-  background: #FFF;
+  background: #fff;
 }
 
 .btn-eleven img,
@@ -277,11 +282,10 @@ header {
 .btn-sixteen img,
 .btn-seventeen img,
 .btn-eighteen img,
-.btn-nineteen img{
+.btn-nineteen img {
   width: 40px;
   height: 40px;
 }
-
 
 .btn-eleven p,
 .btn-twelve p,
@@ -300,6 +304,73 @@ header {
 .btn-thirteen:hover {
   border: 2px solid pink;
 }
-.btn-thirteen p:hover{
+.btn-thirteen p:hover {
   color: deeppink;
+}
+
+/* FOOTER SECTION STYLES */
+.footer-section {
+  background:#4ec5f7;
+  padding: 120px 560px;
+  width: 10%;
+  height: 100%;
+}
+
+.footer-section .footer-title-container,
+.section-names,
+.social-links,
+.footer-info {
+  display: flex;
+  text-align: center;
+  /* gap: 60px;s */
+}
+.footer-title-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.footer-img {
+  width: 3rem;
+  height: 1.4rem;
+}
+.footer-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.g {
+  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.amer {
+  color: #FFF;
+}
+.social-links img {
+  width: 2%;
+  height: 2%;
+  color: #FFFFFF;
+}
+.section-names{
+  width: 50%;
+  gap: 60px;
+}
+.our-story,
+.games-f,
+.web-games,
+.careers,
+.support,
+.my-account {
+  color: #fff;
+  /* text-align: center; */
+  font-size: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+  /* align-items: center; */
+  
+}
+
+/* MOBILE DEVICES RESPONSIVE......MOBILE DEVICES RESPONSIVE  */
+@media screen and (max-width: 576px) {
 }
