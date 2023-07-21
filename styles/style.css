@@ -9,9 +9,9 @@
 
 /* HEADER STYLES */
 header {
-    background-color: #FFFFFF;
-    padding: 0;
-    margin: 0;
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
 }
 
 /* NAV STYLES */
@@ -54,8 +54,8 @@ header {
   gap: 32px;
   /* font-size: 18px; */
 }
-.nav-contact li{
-    font-size: 10px;
+.nav-contact li {
+  font-size: 10px;
 }
 .nav-contact a {
   text-decoration: none;
@@ -84,23 +84,57 @@ header {
 }
 
 /* BANNER STYLES */
-.banner-section{
+.banner-section {
   display: flex;
   justify-content: space-between;
-  gap: ;
+  /* gap: ; */
   align-items: center;
+  margin-right: 100px;
 }
-.banner-content{
-  /* background: #ffa2a5; */
+.banner-content {
+  background: linear-gradient(
+    223deg,
+    rgba(140, 87, 238, 0.03) 0%,
+    rgba(241, 68, 174, 0.03) 100%
+  );
   padding: 100px 100px;
-  text-align: center;
+  text-align: left;
+  gap: 0px;
 }
-.play{
-  color: #0B0223;
-  text-align: center;
-  font-size: 25px; 
-  font-weight: 600; 
-  text-transform: uppercase; 
+.play {
+  color: #0b0223;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.goat {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-top: 0px;
+}
+.one-click,
+.no-download,
+.one-thousand {
+  font-size: 10px;
+}
+.btn-primary-sign-in {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  color: #fff;
+}
+.btn-primary-go {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: #4ec5f7;
+  color: #fff;
 }
 .banner-img img {
   width: 70%;
