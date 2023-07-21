@@ -177,11 +177,18 @@ header {
   -webkit-text-fill-color: transparent;
 }
 .online-games-img {
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 200px;
   display: flex;
   /* justify-content: center; */
-  gap: 24px;
+  gap: 0.5rem;
+}
+.online-games-img img{
+  width: ;
+  height: ;
+}
+.online-games-img figcaption{
+  font-size: 10px;
 }
 
 /* PLAY INSTANTLY STYLES */
