@@ -6,6 +6,9 @@
   font-family: "Open Sans", sans-serif;
   font-family: "Work Sans", sans-serif;
 }
+body {
+  background: #fff;
+}
 
 /* HEADER STYLES */
 header {
@@ -143,7 +146,8 @@ header {
 
 /* ONLINE GAMES STYLES */
 .online-games-section {
-  margin: 120px 70px 120px 120px;
+  /* margin: 120px 70px 120px 120px; */
+  padding: 120px 240px 120px 170px;
 }
 .online-games-container {
   /* gap: 10px; */
@@ -182,17 +186,16 @@ header {
 
 /* PLAY INSTANTLY STYLES */
 .play-instantly-section {
-  margin: 120px 200px 120px 150px;
+  padding: 120px 200px 120px 150px;
   gap: 70px;
   display: flex;
   align-items: center;
-  background: #FFF;
+  background: #fff;
 }
 .play-instantly-text {
   text-align: right;
   gap: 10px;
   align-items: center;
-
 }
 .play-instantly-text h3 {
   width: 60%;
@@ -207,7 +210,7 @@ header {
   -webkit-text-fill-color: transparent;
 }
 .no-downloads {
-  color: #0B0223;
+  color: #0b0223;
 }
 .play-instantly-text p {
   width: 200px;
@@ -216,17 +219,80 @@ header {
   color: #534c64;
   text-align: right;
 }
-.play-instantly-img{
-  
+.play-instantly-img {
 }
 .play-instantly-img img {
   width: 90%;
   height: 70%;
 }
-#img-sixty-six{
+#img-sixty-six {
   width: 50%;
   height: 40%;
   position: relative;
   top: -200px;
   right: 60px;
+}
+
+/* BUTTON SECTION STYLES */
+.btn-section {
+  /* margin: 50px 70px; */
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+  width: 60%;
+  height: 70%;
+  padding: 200px 305px 200px 200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+.btn-eleven,
+.btn-twelve,
+.btn-thirteen,
+.btn-fourteen,
+.btn-fifteen,
+.btn-sixteen,
+.btn-seventeen,
+.btn-eighteen,
+.btn-nineteen {
+  display: flex;
+  gap: 5px;
+  padding: 4px;
+  border-radius: 50px;
+  background: #FFF;
+}
+
+.btn-eleven img,
+.btn-twelve img,
+.btn-thirteen img,
+.btn-fourteen img,
+.btn-fifteen img,
+.btn-sixteen img,
+.btn-seventeen img,
+.btn-eighteen img,
+.btn-nineteen img{
+  width: 40px;
+  height: 40px;
+}
+
+
+.btn-eleven p,
+.btn-twelve p,
+.btn-thirteen p,
+.btn-fourteen p,
+.btn-fifteen p,
+.btn-sixteen p,
+.btn-seventeen p,
+.btn-eighteen p,
+.btn-nineteen p {
+  color: #0b0223;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.btn-thirteen:hover {
+  border: 2px solid pink;
+}
+.btn-thirteen p:hover{
+  color: deeppink;
 }
